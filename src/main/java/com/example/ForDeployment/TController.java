@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class TController {
 
-	@GetMapping("/")
-	public String hello()
+	@GetMapping("/hello")
+	public String greeting()
 	{
-		return "hello";
+		return "index.html";
 	}
 }
