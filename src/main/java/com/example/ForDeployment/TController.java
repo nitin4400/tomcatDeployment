@@ -9,11 +9,11 @@ public class TController {
 	@GetMapping("/hello")
 	public String greeting()
 	{
-		return "index";
+		return "<body bgcolor=red>index</body>";
 	}
 	@GetMapping("/welcome")
 	public String welcome()
 	{
-		return "hii";
+		return "<h1> hii</h1>";
 	}
 }
